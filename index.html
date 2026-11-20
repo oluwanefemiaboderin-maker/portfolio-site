@@ -4,9 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Femi | UI/UX Designer & Front-End Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Femi, a UI/UX designer and front-end developer designing and building web and mobile products."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome to my portfolio</h1>
-    <p>UI/UX Designer & Front-End Developer</p>
+    <header class="wrap nav">
+      <a class="logo" href="#top">Femi</a>
+      <nav aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a class="btn small" href="#contact">Contact me</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="wrap hero">
+        <p class="status"><span class="dot"></span>Open to freelance projects, remote</p>
+        <h1>I design products people understand, then build them in code.</h1>
+        <p class="lead">
+          I'm Femi, a UI/UX designer and front-end developer. I take web and mobile
+          products from research and wireframes to polished interfaces that work in the
+          browser.
+        </p>
+        <div class="actions">
+          <a class="btn" href="#work">See my work</a>
+          <a class="btn ghost" href="#contact">Start a project</a>
+        </div>
+      </section>
+
+      <section class="wrap" id="work">
+        <h2>Selected work</h2>
+        <!-- Replace each "#" below with the link to that case study (for example, your Notion page). -->
+        <article class="project">
+          <div>
+            <p class="meta">Web app</p>
+            <h3>Crypto exchange</h3>
+            <p>
+              A trading dashboard that makes prices, orders and wallet balances easy to
+              read at a glance.
+            </p>
+            <a class="link" href="#">Read case study</a>
+          </div>
+          <div class="shot" style="--c1: #dfe5ff; --c2: #2b4dff" aria-hidden="true"></div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="meta">Mobile app</p>
+            <h3>E-learning</h3>
+            <p>
+              Lessons, quizzes and progress tracking designed for short study sessions on
+              a phone.
+            </p>
+            <a class="link" href="#">Read case study</a>
+          </div>
+          <div class="shot" style="--c1: #ffe3d1; --c2: #e8590c" aria-hidden="true"></div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="meta">Mobile and web</p>
+            <h3>Food delivery</h3>
+            <p>
+              From browsing menus to tracking an order, one ordering flow across phone
+              and desktop.
+            </p>
+            <a class="link" href="#">Read case study</a>
+          </div>
+          <div class="shot" style="--c1: #d8f3dc; --c2: #1b8a3f" aria-hidden="true"></div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="meta">Fintech, mobile and web</p>
+            <h3>Budgeting app</h3>
+            <p>
+              Spending, savings goals and monthly limits in a view people can check in
+              seconds.
+            </p>
+            <a class="link" href="#">Read case study</a>
+          </div>
+          <div class="shot" style="--c1: #efe1ff; --c2: #7a2fd0" aria-hidden="true"></div>
+        </article>
+
+        <article class="project">
+          <div>
+            <p class="meta">Healthcare, mobile and web</p>
+            <h3>Doctor booking</h3>
+            <p>
+              Finding a doctor, choosing a time and managing appointments with fewer
+              steps.
+            </p>
+            <a class="link" href="#">Read case study</a>
+          </div>
+          <div class="shot" style="--c1: #d9f1f5; --c2: #0b7a8a" aria-hidden="true"></div>
+        </article>
+      </section>
+
+      <section class="wrap about" id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            I work in UI/UX design and also do graphic design, so I think about how a
+            product looks, how it behaves and how it is built. Because I code the front
+            end myself, my designs are made with real browsers and real screen sizes in
+            mind.
+          </p>
+          <p>
+            I'm looking for freelance projects with teams anywhere in the world.
+          </p>
+          <ul class="tags" aria-label="Skills">
+            <li>Figma</li>
+            <li>User research</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Design systems</li>
+            <li>Graphic design</li>
+            <li>HTML and CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="wrap" id="process">
+        <h2>How I work</h2>
+        <ol class="steps">
+          <li>
+            <h3>Understand</h3>
+            <p>Talk to users and stakeholders to learn the problem before drawing anything.</p>
+          </li>
+          <li>
+            <h3>Define</h3>
+            <p>Turn findings into clear goals, user flows and a simple structure.</p>
+          </li>
+          <li>
+            <h3>Design</h3>
+            <p>Sketch, wireframe and prototype in Figma, then refine the visual interface.</p>
+          </li>
+          <li>
+            <h3>Build and test</h3>
+            <p>Hand over clean specs or code the front end, then test with real people.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="wrap contact" id="contact">
+        <h2>Have a project in mind?</h2>
+        <p class="lead">Send me a short note about what you're building and when you need it.</p>
+        <a class="mail" href="mailto:oluwanefemiaboderin@gmail.com">oluwanefemiaboderin@gmail.com</a>
+        <p class="elsewhere">
+          Find me on
+          <a href="#">Notion</a>, <a href="#">Behance</a>, <a href="#">Dribbble</a> and
+          <a href="#">LinkedIn</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer class="wrap foot">
+      <p>&copy; 2026 Femi. Designed and built by me.</p>
+    </footer>
   </body>
 </html>
